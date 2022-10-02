@@ -1,3 +1,5 @@
+-- plsql
+
 
 DECLARE
   c_name Customer.customer_name%TYPE;
@@ -9,6 +11,9 @@ BEGIN
   
   dbms_output.put_line( c_name || ' -Adress:' || c_address );
 END;
+
+
+
 
 
 DECLARE
